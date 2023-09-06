@@ -1,0 +1,139 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D9B596;
+    margin: 0;
+}
+.inlineblock
+{
+   
+    display: inline-block;
+    margin-left: 30px;
+    
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #D9B596;
+}
+
+
+#atena
+{
+    margin-top:30px;
+    align-self: center;
+    margin-left: 150px;
+    font-weight: 400;
+    font-size: 50px;
+    
+
+}
+
+#button1
+{
+    display: inline-block;
+    margin-left: 380px;
+    width: 300px;
+    height: 60px;
+    border: 3px;
+
+    background: #D9B596;
+}
+#button1:hover{
+    background-color: #B48B67;
+}
+#button1:active{
+    background-color: #A57A56;
+    width: 310px;
+    height: 65px;
+}
+.button2
+{
+    display: flex;
+    margin-top:18px;
+    justify-content: center;
+
+    width: 300px;
+    height: 60px;
+    border: 3px;
+    background: #D9B596;
+}
+.button2:hover{
+    background-color: #B48B67;
+    margin-top:18px;
+    justify-content: center;
+    border: 3px;
+    
+}
+.button2:active{
+    background-color: #A57A56;
+    margin-top:18px;
+    justify-content: center;
+
+    width: 310px;
+    height: 65px;
+    border: 3px;
+    
+}
+
+#titleButton1
+{
+    display: flex;
+    margin-top:18px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #ffffff;
+}
+#titleButton2
+{
+    display:flex;
+    margin-top:18px;
+    justify-content: center;
+   
+    font-size: 15px;
+    color: #ffffff;
+}
+#blockdev{
+    display: flex;
+   align-items: end;
+
+  
+}
+#blockstart{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+#line{
+
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px;
+    background-color:#D9B596;
+    
+}
+.img{
+    margin-left: 250px;
+    margin-top:70px;
+    display: flex;
+    
+}
+
+.text{
+    display: block;
+    
+    
+ 
+}
+.link{
+text-decoration: none;
+color: #D9B596;
+}
+.anim:hover{
+    background-color:#FFF3E9;
+    height: 30px;
+}
