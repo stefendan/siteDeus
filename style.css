@@ -137,3 +137,62 @@ color: #D9B596;
     background-color:#FFF3E9;
     height: 30px;
 }
+
+/*galeria*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#titulo-galeria{
+    height: 150px;
+    color: #B48B67;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#titulo-galeria h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.conteiner-galeria{
+    display: flex;
+    flex-wrap: wrap;
+/*permite inserir uma quebra, nos itens que não cabem no eixo principal*/
+    justify-content: space-evenly;/*espaçamento entre os itens e as bordas*/
+    gap: 2vw;
+    /*espaçamento entre os itens*/
+    padding: 0 1vw;
+}
+
+.itens-galeria{
+    width: 300px;
+    height: 280px;
+    border: 10px solid #404a7d;
+    flex-grow: 1;
+    /*permite alterar a medida para maior*/
+}
+.itens-galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*a imagem mantém sua proporção e preenche a dimensão dada*/
+}
+.itens-galeria:hover{
+    transform: scale(1.1);
+    /*permite que você gire,escalar, mover, inclinar, etc */
+    filter: grayscale(100%);
+    transition: transform 0.1s linear;
+    border: 10px solid #191934;
+}
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    background-color: #404a7d;
+    margin-top: 30px;
+}
